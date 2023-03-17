@@ -1,0 +1,5 @@
+plot "complexite_profondeur" using 1:2 title 'min max ' with lines
+replot "complexite_profondeur_alpha_beta_100p" using 1:2 title 'alpha beta ' with lines
+set term postscript portrait
+set output "complexite_profondeur_100p.png"
+set size 0.7, 0.7

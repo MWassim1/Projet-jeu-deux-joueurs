@@ -1,0 +1,6 @@
+plot "param_vs_alpha-beta_2" using 1:2 title 'param vs alpha-beta 2 ' with lines
+replot "param_vs_alea" using 1:2 title 'param vs alea' with lines
+replot "param_vs_debut" using 1:2 title 'param vs debut ' with lines
+set term postscript portrait
+set output "param_vs_alpha-beta_2.png"
+set size 0.7, 0.7
